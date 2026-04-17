@@ -1,10 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
+import React, { useRef } from 'react';
+import { StyleSheet, Text, View, Image, FlatList, ScrollView } from 'react-native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import dataLocais from './src/API/API-locais.json';
 import dataRestaurantes from './src/API/API-restaurantes.json';
 
 export default function App() {
+    const scrollViewRef = useRef();
+
+    const handleScrollToBottom = () => {
+        scrollViewRef.current.scrollToEnd({ animated: true });
+    };
+
     const renderItem = ({ item }) => (
         <View style={styles.card}>
             <Image source={{ uri: item.imagem }} style={styles.cardImagem} />
@@ -17,43 +24,66 @@ export default function App() {
 
     return (
         <View style={styles.container}>
-            <View style={styles.header}>
-                <View style={styles.headerView}>
-                    <FontAwesome
-                        style={styles.menuHeader}
-                        name="align-justify"
-                        size={24}
-                        color="#00BCD9"
-                    />
-                    <FontAwesome
-                        style={styles.pesquisaHeader}
-                        name="search"
-                        size={24}
-                        color="#00BCD9"
-                    />
+            <ScrollView ref={scrollViewRef} nestedScrollEnabled={true}>
+                <View style={styles.header}>
+                    <View style={styles.headerView}>
+                        <FontAwesome
+                            style={styles.menuHeader}
+                            name="align-justify"
+                            size={24}
+                            color="#00BCD9"
+                        />
+                        <FontAwesome
+                            style={styles.pesquisaHeader}
+                            name="search"
+                            size={24}
+                            color="#00BCD9"
+                        />
+                    </View>
                 </View>
-            </View>
 
-            <View style={styles.main}>
-                <View style={styles.viewViagensText}>
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white' }}>
-                        Melhores viagens
-                    </Text>
-                </View>
-                <View style={{ marginTop: 20}}>
+                <View style={styles.main}>
+                    <View style={styles.viewViagensText}>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white' }}>
+                            Melhores viagens
+                        </Text>
+                    </View>
+
                     <FlatList
                         data={dataLocais}
                         keyExtractor={(item) => item.id.toString()}
                         renderItem={renderItem}
-                        horizontal={true} // ← habilita o scroll horizontal
+                        horizontal={true}
                         showsHorizontalScrollIndicator={false}
                         contentContainerStyle={styles.flatListContainer}
-                        snapToAlignment="center" // ← encaixa o card no centro ao soltar
-                        decelerationRate="fast" // ← animação mais natural ao parar
-                        snapToInterval={227} // ← largura do card + gap (212 + 15)
+                        snapToAlignment="center"
+                        decelerationRate="fast"
+                        snapToInterval={227}
+                        style={styles.flatList}
+                        nestedScrollEnabled={true}
+                    />
+
+                    <View style={styles.viewViagensText}>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white' }}>
+                            Melhores Restaurantes
+                        </Text>
+                    </View>
+
+                    <FlatList
+                        data={dataRestaurantes}
+                        keyExtractor={(item) => item.id.toString()}
+                        renderItem={renderItem}
+                        horizontal={true}
+                        showsHorizontalScrollIndicator={false}
+                        contentContainerStyle={styles.flatListContainer}
+                        snapToAlignment="center"
+                        decelerationRate="fast"
+                        snapToInterval={227}
+                        style={styles.flatList}
+                        nestedScrollEnabled={true}
                     />
                 </View>
-            </View>
+            </ScrollView>
             <StatusBar style="auto" />
         </View>
     );
@@ -97,6 +127,11 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20,
         gap: 15,
         alignItems: 'center',
+    },
+    flatList: {
+        height: 318,
+        marginTop: 20,
+        marginBottom: 30,
     },
     card: {
         width: 212,
