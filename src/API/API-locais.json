@@ -5,7 +5,7 @@
     "nome": "Machu Picchu",
     "descricao": "A 'Cidade Perdida dos Incas', uma antiga cidadela situada no alto da Cordilheira dos Andes com uma vista de tirar o fôlego.",
     "imagem": "https://images.unsplash.com/photo-1526392060635-9d6019884377",
-    "localizacao": "Cusco, Peru (América do Sul)"
+    "localizacao": "Cusco, Peru"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "nome": "Estátua da Liberdade",
     "descricao": "Um símbolo universal de liberdade e democracia, localizada na Ilha da Liberdade, que dá as boas-vindas aos visitantes de Nova York.",
     "imagem": "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a",
-    "localizacao": "Nova York, EUA (América do Norte)"
+    "localizacao": "Nova York, EUA"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "nome": "Torre Eiffel",
     "descricao": "Ícone mundial de Paris e um dos monumentos mais visitados do mundo, oferecendo vistas deslumbrantes e românticas da cidade.",
     "imagem": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f",
-    "localizacao": "Paris, França (Europa)"
+    "localizacao": "Paris, França"
   },
   {
     "id": 4,
@@ -29,15 +29,15 @@
     "nome": "Pirâmides de Gizé",
     "descricao": "A única das Sete Maravilhas do Mundo Antigo ainda intacta, um testamento impressionante e misterioso da engenharia egípcia.",
     "imagem": "https://images.unsplash.com/photo-1539650116574-8efeb43e2b50",
-    "localizacao": "Cairo, Egito (África)"
+    "localizacao": "Cairo, Egito"
   },
   {
     "id": 5,
     "categoria": "Ponto Turístico",
-    "nome": "Grande Muralha da China",
+    "nome": "Muralha da China",
     "descricao": "Série de fortificações milenares que serpenteiam pelas montanhas e vales do norte do país, carregando séculos de história.",
     "imagem": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d",
-    "localizacao": "Pequim, China (Ásia)"
+    "localizacao": "Pequim, China"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "nome": "Sydney Opera House",
     "descricao": "Uma obra-prima da arquitetura do século XX e um dos centros de artes cênicas mais famosos e visualmente impactantes do mundo.",
     "imagem": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8",
-    "localizacao": "Sydney, Austrália (Oceania)"
+    "localizacao": "Sydney, Austrália"
   }
 
 ]
