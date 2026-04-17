@@ -16,7 +16,7 @@ export default function FavoritosScreen() {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.titulo}>Favoritos</Text>
+            <Text style={styles.titulo}>Viagens</Text>
 
             <FlatList
                 data={dataLocais}
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     },
     lista: {
         paddingHorizontal: 20,
-        gap: 15,
+        gap: 30,
     },
     card: {
         width: '100%',
