@@ -1,50 +1,122 @@
 [
-{
-    "id": 1,
-    "categoria": "Restaurante",
-    "nome": "D.O.M.",
-    "descricao": "Comandado pelo chef Alex Atala, este restaurante eleva ingredientes nativos da Amazônia à alta gastronomia mundial com texturas surpreendentes.",
-    "imagem": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c",
-    "localizacao": "São Paulo, Brasil (América do Sul)"
-  },
-  {
-    "id": 2,
-    "categoria": "Restaurante",
-    "nome": "The French Laundry",
-    "descricao": "Ícone da culinária californiana e francesa, liderado por Thomas Keller, famoso por seus menus degustação requintados e impecáveis.",
-    "imagem": "https://images.unsplash.com/photo-1544148103-0773bf10d330",
-    "localizacao": "Yountville, EUA (América do Norte)"
-  },
-  {
-    "id": 3,
-    "categoria": "Restaurante",
-    "nome": "Osteria Francescana",
-    "descricao": "Restaurante com três estrelas Michelin do chef Massimo Bottura, oferecendo uma reinvenção moderna, criativa e poética da culinária italiana.",
-    "imagem": "https://images.unsplash.com/photo-1514933651103-005eec06c04b",
-    "localizacao": "Modena, Itália (Europa)"
-  },
-  {
-    "id": 4,
-    "categoria": "Restaurante",
-    "nome": "Wolfgat",
-    "descricao": "Restaurante intimista e premiado que destaca os ingredientes forrageados da costa sul-africana em um menu degustação rústico e exclusivo.",
-    "imagem": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
-    "localizacao": "Paternoster, África do Sul (África)"
-  },
-  {
-    "id": 5,
-    "categoria": "Restaurante",
-    "nome": "Sukiyabashi Jiro",
-    "descricao": "Lendário e minúsculo restaurante de sushi, famoso por sua qualidade incomparável e dedicação extrema à perfeição do preparo.",
-    "imagem": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
-    "localizacao": "Tóquio, Japão (Ásia)"
-  },
-  {
-    "id": 6,
-    "categoria": "Restaurante",
-    "nome": "Attica",
-    "descricao": "Restaurante inovador focado em ingredientes nativos australianos, oferecendo uma experiência gastronômica imersiva e profundamente conectada à terra.",
-    "imagem": "https://images.unsplash.com/photo-1559339352-11d035aa65de",
-    "localizacao": "Melbourne, Austrália (Oceania)"
-  }
+    {
+        "id": 1,
+        "categoria": "Restaurante",
+        "nome": "D.O.M.",
+        "descricao": "Comandado pelo chef Alex Atala, este restaurante eleva ingredientes nativos da Amazônia à alta gastronomia mundial com texturas surpreendentes.",
+        "imagem": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c",
+        "localizacao": "São Paulo, Brasil"
+    },
+    {
+        "id": 2,
+        "categoria": "Restaurante",
+        "nome": "The French Laundry",
+        "descricao": "Ícone da culinária californiana e francesa, liderado por Thomas Keller, famoso por seus menus degustação requintados e impecáveis.",
+        "imagem": "https://images.unsplash.com/photo-1544148103-0773bf10d330",
+        "localizacao": "Yountville, EUA"
+    },
+    {
+        "id": 3,
+        "categoria": "Restaurante",
+        "nome": "Osteria Francescana",
+        "descricao": "Restaurante com três estrelas Michelin do chef Massimo Bottura, oferecendo uma reinvenção moderna, criativa e poética da culinária italiana.",
+        "imagem": "https://images.unsplash.com/photo-1514933651103-005eec06c04b",
+        "localizacao": "Modena, Itália"
+    },
+    {
+        "id": 4,
+        "categoria": "Restaurante",
+        "nome": "Wolfgat",
+        "descricao": "Restaurante intimista e premiado que destaca os ingredientes forrageados da costa sul-africana em um menu degustação rústico e exclusivo.",
+        "imagem": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "localizacao": "Paternoster, África do Sul"
+    },
+    {
+        "id": 5,
+        "categoria": "Restaurante",
+        "nome": "Sukiyabashi Jiro",
+        "descricao": "Lendário e minúsculo restaurante de sushi, famoso por sua qualidade incomparável e dedicação extrema à perfeição do preparo.",
+        "imagem": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+        "localizacao": "Tóquio, Japão"
+    },
+    {
+        "id": 6,
+        "categoria": "Restaurante",
+        "nome": "Attica",
+        "descricao": "Restaurante inovador focado em ingredientes nativos australianos, oferecendo uma experiência gastronômica imersiva e profundamente conectada à terra.",
+        "imagem": "https://images.unsplash.com/photo-1559339352-11d035aa65de",
+        "localizacao": "Melbourne, Austrália"
+    },
+    {
+        "id": 7,
+        "categoria": "Restaurante",
+        "nome": "Noma",
+        "descricao": "Considerado por muitos o melhor restaurante do mundo, o chef René Redzepi reinventou a culinária nórdica com ingredientes silvestres e fermentados.",
+        "imagem": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17",
+        "localizacao": "Copenhague, Dinamarca"
+    },
+    {
+        "id": 8,
+        "categoria": "Restaurante",
+        "nome": "El Celler de Can Roca",
+        "descricao": "Administrado pelos três irmãos Roca, combina tradição catalã com vanguarda criativa em um menu que é uma verdadeira obra de arte sensorial.",
+        "imagem": "https://images.unsplash.com/photo-1600891964092-4316c288032e",
+        "localizacao": "Girona, Espanha"
+    },
+    {
+        "id": 9,
+        "categoria": "Restaurante",
+        "nome": "Mirazur",
+        "descricao": "Eleito o melhor restaurante do mundo em 2019, o chef Mauro Colagreco cria pratos inspirados na horta própria e na vista privilegiada do Mediterrâneo.",
+        "imagem": "https://images.unsplash.com/photo-1592861956120-e524fc739696",
+        "localizacao": "Menton, França"
+    },
+    {
+        "id": 10,
+        "categoria": "Restaurante",
+        "nome": "Central",
+        "descricao": "O chef Virgilio Martínez leva os comensais em uma viagem pelos ecossistemas do Peru, do fundo do oceano aos picos andinos, em cada prato do menu.",
+        "imagem": "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b",
+        "localizacao": "Lima, Peru"
+    },
+    {
+        "id": 11,
+        "categoria": "Restaurante",
+        "nome": "Gaggan",
+        "descricao": "O chef Gaggan Anand transforma a culinária indiana em uma experiência de 25 pratos servidos sem talheres, com emojis no menu no lugar das palavras.",
+        "imagem": "https://images.unsplash.com/photo-1585937421612-70a008356fbe",
+        "localizacao": "Bangcoc, Tailândia"
+    },
+    {
+        "id": 12,
+        "categoria": "Restaurante",
+        "nome": "Quintonil",
+        "descricao": "Um dos restaurantes mais celebrados do México, o chef Jorge Vallejo reinterpreta ingredientes e técnicas ancestrais mexicanas com elegância contemporânea.",
+        "imagem": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47",
+        "localizacao": "Cidade do México, México"
+    },
+    {
+        "id": 13,
+        "categoria": "Restaurante",
+        "nome": "Eleven Madison Park",
+        "descricao": "Restaurante vegano de luxo em Nova York com três estrelas Michelin, famoso pelo serviço impecável e pratos artisticamente elaborados.",
+        "imagem": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2",
+        "localizacao": "Nova York, EUA"
+    },
+    {
+        "id": 14,
+        "categoria": "Restaurante",
+        "nome": "Boragó",
+        "descricao": "O chef Rodolfo Guzmán explora a biodiversidade chilena em pratos únicos que utilizam ingredientes da Patagônia, do deserto do Atacama e do Pacífico.",
+        "imagem": "https://images.unsplash.com/photo-1482275548304-a58859dc31b7",
+        "localizacao": "Santiago, Chile"
+    },
+    {
+        "id": 16,
+        "categoria": "Restaurante",
+        "nome": "Lasai",
+        "descricao": "O chef Rafa Costa e Silva celebra os produtores brasileiros em um menu que muda constantemente conforme as estações, servido em um casarão histórico no Rio.",
+        "imagem": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0",
+        "localizacao": "Rio de Janeiro, Brasil"
+    }
 ]

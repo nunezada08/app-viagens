@@ -1,52 +1,114 @@
 [
-  {
-    "id": 1,
-    "categoria": "Ponto Turístico",
-    "nome": "Machu Picchu",
-    "descricao": "A 'Cidade Perdida dos Incas', uma antiga cidadela situada no alto da Cordilheira dos Andes com uma vista de tirar o fôlego.",
-    "imagem": "https://images.unsplash.com/photo-1526392060635-9d6019884377",
-    "localizacao": "Cusco, Peru"
-  },
-  {
-    "id": 2,
-    "categoria": "Ponto Turístico",
-    "nome": "Estátua da Liberdade",
-    "descricao": "Um símbolo universal de liberdade e democracia, localizada na Ilha da Liberdade, que dá as boas-vindas aos visitantes de Nova York.",
-    "imagem": "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a",
-    "localizacao": "Nova York, EUA"
-  },
-  {
-    "id": 3,
-    "categoria": "Ponto Turístico",
-    "nome": "Torre Eiffel",
-    "descricao": "Ícone mundial de Paris e um dos monumentos mais visitados do mundo, oferecendo vistas deslumbrantes e românticas da cidade.",
-    "imagem": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f",
-    "localizacao": "Paris, França"
-  },
-  {
-    "id": 4,
-    "categoria": "Ponto Turístico",
-    "nome": "Pirâmides de Gizé",
-    "descricao": "A única das Sete Maravilhas do Mundo Antigo ainda intacta, um testamento impressionante e misterioso da engenharia egípcia.",
-    "imagem": "https://conceitos.com/wp-content/uploads/cultura/Grande-Piramide-de-Gize.jpg",
-    "localizacao": "Cairo, Egito"
-
-  },
-  {
-    "id": 5,
-    "categoria": "Ponto Turístico",
-    "nome": "Muralha da China",
-    "descricao": "Série de fortificações milenares que serpenteiam pelas montanhas e vales do norte do país, carregando séculos de história.",
-    "imagem": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d",
-    "localizacao": "Pequim, China"
-  },
-  {
-    "id": 6,
-    "categoria": "Ponto Turístico",
-    "nome": "Sydney Opera House",
-    "descricao": "Uma obra-prima da arquitetura do século XX e um dos centros de artes cênicas mais famosos e visualmente impactantes do mundo.",
-    "imagem": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8",
-    "localizacao": "Sydney, Austrália"
-  }
-
+    {
+        "id": 1,
+        "categoria": "Ponto Turístico",
+        "nome": "Machu Picchu",
+        "descricao": "A 'Cidade Perdida dos Incas', uma antiga cidadela situada no alto da Cordilheira dos Andes com uma vista de tirar o fôlego.",
+        "imagem": "https://images.unsplash.com/photo-1526392060635-9d6019884377",
+        "localizacao": "Cusco, Peru"
+    },
+    {
+        "id": 2,
+        "categoria": "Ponto Turístico",
+        "nome": "Estátua da Liberdade",
+        "descricao": "Um símbolo universal de liberdade e democracia, localizada na Ilha da Liberdade, que dá as boas-vindas aos visitantes de Nova York.",
+        "imagem": "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a",
+        "localizacao": "Nova York, EUA"
+    },
+    {
+        "id": 3,
+        "categoria": "Ponto Turístico",
+        "nome": "Torre Eiffel",
+        "descricao": "Ícone mundial de Paris e um dos monumentos mais visitados do mundo, oferecendo vistas deslumbrantes e românticas da cidade.",
+        "imagem": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f",
+        "localizacao": "Paris, França"
+    },
+    {
+        "id": 4,
+        "categoria": "Ponto Turístico",
+        "nome": "Pirâmides de Gizé",
+        "descricao": "A única das Sete Maravilhas do Mundo Antigo ainda intacta, um testamento impressionante e misterioso da engenharia egípcia.",
+        "imagem": "https://conceitos.com/wp-content/uploads/cultura/Grande-Piramide-de-Gize.jpg",
+        "localizacao": "Cairo, Egito"
+    },
+    {
+        "id": 5,
+        "categoria": "Ponto Turístico",
+        "nome": "Muralha da China",
+        "descricao": "Série de fortificações milenares que serpenteiam pelas montanhas e vales do norte do país, carregando séculos de história.",
+        "imagem": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d",
+        "localizacao": "Pequim, China"
+    },
+    {
+        "id": 6,
+        "categoria": "Ponto Turístico",
+        "nome": "Sydney Opera House",
+        "descricao": "Uma obra-prima da arquitetura do século XX e um dos centros de artes cênicas mais famosos e visualmente impactantes do mundo.",
+        "imagem": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8",
+        "localizacao": "Sydney, Austrália"
+    },
+    {
+        "id": 7,
+        "categoria": "Ponto Turístico",
+        "nome": "Coliseu",
+        "descricao": "O maior anfiteatro já construído, símbolo eterno do Império Romano, onde gladiadores disputavam batalhas épicas há mais de dois milênios.",
+        "imagem": "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
+        "localizacao": "Roma, Itália"
+    },
+    {
+        "id": 8,
+        "categoria": "Ponto Turístico",
+        "nome": "Taj Mahal",
+        "descricao": "Um monumento de amor eterno construído pelo imperador Shah Jahan em homenagem à sua esposa, considerado a joia da arquitetura mogol.",
+        "imagem": "https://images.unsplash.com/photo-1564507592333-c60657eea523",
+        "localizacao": "Agra, Índia"
+    },
+    {
+        "id": 9,
+        "categoria": "Ponto Turístico",
+        "nome": "Cristo Redentor",
+        "descricao": "Estátua icônica que abraça a cidade do Rio de Janeiro do alto do Corcovado, sendo um dos símbolos mais reconhecidos do Brasil e do mundo.",
+        "imagem": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325",
+        "localizacao": "Rio de Janeiro, Brasil"
+    },
+    {
+        "id": 10,
+        "categoria": "Ponto Turístico",
+        "nome": "Santorini",
+        "descricao": "Ilha vulcânica de tirar o fôlego, famosa pelas construções brancas com cúpulas azuis à beira do mar Egeu e pelos pores do sol deslumbrantes.",
+        "imagem": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff",
+        "localizacao": "Santorini, Grécia"
+    },
+    {
+        "id": 11,
+        "categoria": "Ponto Turístico",
+        "nome": "Petra",
+        "descricao": "Cidade arqueológica esculpida diretamente na rocha rosada, antiga capital do reino nabateu e uma das maravilhas mais misteriosas do mundo.",
+        "imagem": "https://images.unsplash.com/photo-1579606032821-4e6161c81bd3",
+        "localizacao": "Ma'an, Jordânia"
+    },
+    {
+        "id": 12,
+        "categoria": "Ponto Turístico",
+        "nome": "Aurora Boreal",
+        "descricao": "Fenômeno natural espetacular que pinta o céu noturno com cortinas de luz verde, rosa e violeta, uma das experiências mais mágicas da natureza.",
+        "imagem": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7",
+        "localizacao": "Tromsø, Noruega"
+    },
+    {
+        "id": 13,
+        "categoria": "Ponto Turístico",
+        "nome": "Angkor Wat",
+        "descricao": "O maior complexo religioso do mundo, um templo hindu-budista cercado de selva e fossos, construído no século XII pelo Império Khmer.",
+        "imagem": "https://revistaunquiet.com.br/wp-content/uploads/2021/09/1536x723-Topo-materia.jpg",
+        "localizacao": "Siem Reap, Camboja"
+    },
+    {
+        "id": 14,
+        "categoria": "Ponto Turístico",
+        "nome": "Grand Canyon",
+        "descricao": "Uma das maiores maravilhas naturais do planeta, com desfiladeiros de 1.600 metros de profundidade esculpidos pelo Rio Colorado ao longo de milhões de anos.",
+        "imagem": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722",
+        "localizacao": "Arizona, EUA"
+    }
 ]

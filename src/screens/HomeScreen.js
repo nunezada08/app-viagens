@@ -2,8 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import React, { useRef } from 'react';
 import { StyleSheet, Text, View, Image, FlatList, ScrollView } from 'react-native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
-import dataLocais from '../API/API-locais.json';
-import dataRestaurantes from '../API/API-restaurantes.json';
+import DataLocaisFavoritos from '../API/API-locaisFavoritos.json';
+import dataRestaurantesFavoritos from '../API/API-restaurantesFavoritos.json';
 
 export default function App() {
     const scrollViewRef = useRef();
@@ -50,7 +50,7 @@ export default function App() {
                     </View>
 
                     <FlatList
-                        data={dataLocais}
+                        data={DataLocaisFavoritos}
                         keyExtractor={(item) => item.id.toString()}
                         renderItem={renderItem}
                         horizontal={true}
@@ -70,7 +70,7 @@ export default function App() {
                     </View>
 
                     <FlatList
-                        data={dataRestaurantes}
+                        data={dataRestaurantesFavoritos}
                         keyExtractor={(item) => item.id.toString()}
                         renderItem={renderItem}
                         horizontal={true}
