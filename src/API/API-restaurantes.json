@@ -1,0 +1,50 @@
+[
+{
+    "id": 1,
+    "categoria": "Restaurante",
+    "nome": "D.O.M.",
+    "descricao": "Comandado pelo chef Alex Atala, este restaurante eleva ingredientes nativos da Amazônia à alta gastronomia mundial com texturas surpreendentes.",
+    "imagem": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c",
+    "localizacao": "São Paulo, Brasil (América do Sul)"
+  },
+  {
+    "id": 2,
+    "categoria": "Restaurante",
+    "nome": "The French Laundry",
+    "descricao": "Ícone da culinária californiana e francesa, liderado por Thomas Keller, famoso por seus menus degustação requintados e impecáveis.",
+    "imagem": "https://images.unsplash.com/photo-1544148103-0773bf10d330",
+    "localizacao": "Yountville, EUA (América do Norte)"
+  },
+  {
+    "id": 3,
+    "categoria": "Restaurante",
+    "nome": "Osteria Francescana",
+    "descricao": "Restaurante com três estrelas Michelin do chef Massimo Bottura, oferecendo uma reinvenção moderna, criativa e poética da culinária italiana.",
+    "imagem": "https://images.unsplash.com/photo-1514933651103-005eec06c04b",
+    "localizacao": "Modena, Itália (Europa)"
+  },
+  {
+    "id": 4,
+    "categoria": "Restaurante",
+    "nome": "Wolfgat",
+    "descricao": "Restaurante intimista e premiado que destaca os ingredientes forrageados da costa sul-africana em um menu degustação rústico e exclusivo.",
+    "imagem": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+    "localizacao": "Paternoster, África do Sul (África)"
+  },
+  {
+    "id": 5,
+    "categoria": "Restaurante",
+    "nome": "Sukiyabashi Jiro",
+    "descricao": "Lendário e minúsculo restaurante de sushi, famoso por sua qualidade incomparável e dedicação extrema à perfeição do preparo.",
+    "imagem": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+    "localizacao": "Tóquio, Japão (Ásia)"
+  },
+  {
+    "id": 6,
+    "categoria": "Restaurante",
+    "nome": "Attica",
+    "descricao": "Restaurante inovador focado em ingredientes nativos australianos, oferecendo uma experiência gastronômica imersiva e profundamente conectada à terra.",
+    "imagem": "https://images.unsplash.com/photo-1559339352-11d035aa65de",
+    "localizacao": "Melbourne, Austrália (Oceania)"
+  }
+]
