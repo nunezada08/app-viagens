@@ -21,6 +21,12 @@ export default function App() {
                   />
               </View>
           </View>
+
+          <View style={styles.main}>
+              <View style={styles.viewViagensText}>
+                  <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white'}} >Viagens favoritas</Text>
+              </View>
+          </View>
           <StatusBar style="auto" />
       </View>
   );
@@ -54,4 +60,15 @@ const styles = StyleSheet.create({
     pesquisaHeader: {
         marginRight: 40,
     },
+    main: {
+        width: '100%',
+        height: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    viewViagensText: {
+        width: '100%',
+        height: 40,
+        justifyContent: 'center'
+    }
 });
